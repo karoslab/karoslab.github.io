@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Support · dear diary</title>
+  <meta name="description" content="Support for dear diary. No account, nothing leaves the device. Write to dear-diary@karoslabs.dev.">
+  <meta name="theme-color" content="#0a0c0d">
+  <style>
+    :root {
+      --slate: #0a0c0d;
+      --slate-2: #0f1214;
+      --line: #2a3034;
+      --chalk: #ecefe6;
+      --chalk-dim: #9aa198;
+      --accent: #e6cd86;
+      --sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --mono: ui-monospace, "SF Mono", "Cascadia Code", Menlo, Consolas, monospace;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--slate);
+      color: var(--chalk);
+      font-family: var(--sans);
+      font-size: 16.5px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-underline-offset: 0.15em;
+    }
+    a:hover { color: var(--chalk); }
+    :focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+      border-radius: 3px;
+    }
+    .wrap {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 1.25rem 1.25rem 4rem;
+    }
+    .back {
+      display: inline-block;
+      margin-bottom: 1.75rem;
+      font-family: var(--mono);
+      font-size: 12.5px;
+      letter-spacing: 0.04em;
+      color: var(--chalk-dim);
+      text-decoration: none;
+    }
+    .back:hover { color: var(--accent); }
+    .back:focus-visible { color: var(--accent); }
+    h1 {
+      font-size: clamp(1.6rem, 5vw, 2rem);
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin: 0 0 1.25rem;
+    }
+    p { margin: 0 0 1rem; }
+    .lede { color: var(--chalk-dim); }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <a class="back" href="/">← dear diary</a>
+    <h1>Support</h1>
+    <p>dear diary is a voice journal that never leaves your device.</p>
+    <p class="lede">There is no account and nothing to recover, because nothing leaves the device.</p>
+    <p>For help, write to <a href="mailto:dear-diary@karoslabs.dev">dear-diary@karoslabs.dev</a>.</p>
+    <p>The fastest way to report a problem is to say what screen you were on and what you expected.</p>
+  </main>
+</body>
+</html>

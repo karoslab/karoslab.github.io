@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Garadi — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #050505;
+    --accent: #E7FF35;
+    --text: #F8F8EE;
+    --muted: #9a9a90;
+    --line: #F8F8EE;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 28px 20px 80px;
+  }
+  header.masthead {
+    border: 4px solid var(--accent);
+    padding: 22px 22px 26px;
+    margin-bottom: 32px;
+    background: #0a0a0a;
+  }
+  .eyebrow {
+    display: inline-block;
+    background: var(--accent);
+    color: #050505;
+    font-weight: 800;
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border: 2px solid var(--accent);
+  }
+  h1 {
+    font-size: clamp(34px, 9vw, 56px);
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.02;
+    margin: 16px 0 6px;
+    text-transform: uppercase;
+  }
+  h1 .vol { color: var(--accent); }
+  .meta {
+    color: var(--muted);
+    font-size: 14px;
+    font-weight: 600;
+    margin: 6px 0 0;
+  }
+  .meta strong { color: var(--text); }
+  h2 {
+    font-size: clamp(20px, 5vw, 26px);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+    margin: 40px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid var(--accent);
+  }
+  p { margin: 0 0 16px; }
+  ul {
+    margin: 0 0 18px;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    position: relative;
+    padding: 8px 0 8px 26px;
+    border-bottom: 2px solid #1a1a18;
+  }
+  li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 16px;
+    width: 12px;
+    height: 12px;
+    background: var(--accent);
+  }
+  .callout {
+    border: 3px solid var(--accent);
+    background: #0d0d05;
+    padding: 18px 20px;
+    margin: 24px 0;
+    font-weight: 600;
+  }
+  .callout strong { color: var(--accent); }
+  a {
+    color: var(--accent);
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 2px solid var(--accent);
+  }
+  code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    background: #161613;
+    border: 1px solid #333;
+    padding: 1px 6px;
+    font-size: 0.9em;
+    color: var(--accent);
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 20px;
+    border-top: 3px solid #1a1a18;
+    color: var(--muted);
+    font-size: 13px;
+  }
+  footer a { font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="masthead">
+    <span class="eyebrow">Privacy Policy</span>
+    <h1>GARADI<span class="vol">.</span></h1>
+    <p class="meta">App: <strong>Garadi</strong> · Bundle <code>com.karthik.garadi</code> · by <strong>karoslabs</strong></p>
+    <p class="meta">Effective date: <strong>June 29, 2026</strong></p>
+  </header>
+
+  <h2>Overview</h2>
+  <p>Garadi is a nutrition, weight, activity, and accountability app for iOS, published by karoslabs. This policy explains what data the app uses, where it is stored, and what we never do with it.</p>
+  <p>The short version: <strong>your data stays yours.</strong> Garadi does not run a server that collects your health, nutrition, or weight data. There is nothing for us to sell, share, or mine. The only thing you can share with other people is the optional accountability circle described below.</p>
+
+  <h2>Data Garadi Uses</h2>
+  <p>Garadi stores the information you enter directly in the app:</p>
+  <ul>
+    <li>Custom foods and serving details</li>
+    <li>Meal logs</li>
+    <li>Calorie and macro goals</li>
+    <li>Weight entries</li>
+    <li>Coach mode preferences</li>
+  </ul>
+  <p>With your explicit permission, Garadi also reads activity data from Apple Health (HealthKit):</p>
+  <ul>
+    <li>Step count</li>
+    <li>Active energy burned</li>
+    <li>Apple exercise time</li>
+    <li>Workout data used for daily activity summaries</li>
+  </ul>
+  <p>Garadi writes to Apple Health <strong>only if you turn on &ldquo;Save food and weight to Health&rdquo;</strong> in Settings. It is off by default and the choice is kept on that device only. When it is on, Garadi saves the calories, protein, carbs and fat of the food you log (with the food's name), and your weigh-ins, as Apple Health entries marked as coming from Garadi. Edits and deletes in Garadi update those entries. Turning it off stops new entries; entries already saved stay until you use &ldquo;Remove what Garadi saved to Health&rdquo; in Settings, which deletes only the entries Garadi saved from that device. If another app also saves your meals to Health, they can be counted twice.</p>
+  <p>Garadi may also read Apple StoreKit purchase state to determine whether Garadi Pro is active.</p>
+
+  <h2>Apple Health / HealthKit</h2>
+  <div class="callout">
+    Apple Health data is read or written <strong>only</strong> after you grant permission, and <strong>only</strong> to power in-app functionality — showing your daily activity next to your calories, macros, and weight tracking. Garadi <strong>never</strong> uses Apple Health / HealthKit data for advertising, marketing, or data mining, and never sells or shares it.
+  </div>
+  <p>You can review or revoke Garadi's Health permissions at any time in the iOS Settings app under Privacy &amp; Security → Health → Garadi.</p>
+
+  <h2>How Data Is Stored</h2>
+  <p>Garadi stores your nutrition, weight, and settings data <strong>locally on your device</strong> using Apple's SwiftData framework.</p>
+  <p>If you enable private sync, Garadi backs up and restores your data using <strong>your own private iCloud (Apple CloudKit private database)</strong> tied to your Apple ID. This keeps every user's data fully separate — two people can install the same app and each person's data stays inside their own iCloud account.</p>
+  <div class="callout">
+    <strong>There is no Garadi server.</strong> Garadi does not operate a separate third-party backend that collects your health, fitness, nutrition, or weight data. Sync, when enabled, runs entirely through Apple's CloudKit private database that only you can access.
+  </div>
+
+  <h2>Accountability Circles</h2>
+  <p>If you start or join an accountability circle (optional, free, up to 5 people), Garadi stores a small record for you in Apple's CloudKit <strong>public</strong> database so the other members can see it. Anyone who has your circle's 6-character invite code could read it. The record holds:</p>
+  <ul>
+    <li>your first name (the name you typed for the circle)</li>
+    <li>your current streak and a short status phrase for today (for example "On track")</li>
+    <li>only if you choose to share your effort for Kusti, the weekly circle contest: the date on your phone, a yes-or-no mark for each of your last 14 days (logged food, stayed in your calorie range, moved by steps or exercise minutes), and the length of your current run of days</li>
+  </ul>
+  <p>It never holds your food, calories, weight, or Apple Health numbers. Sharing effort asks you first, and you can switch it off at any time on the circle screen. Switching it off, or saying no, immediately overwrites those fields with empty values. Leaving the circle deletes your record. This is the one place a Garadi feature shares anything with other people, and it uses Apple's CloudKit only: there is still no Garadi server.</p>
+
+  <h2>Subscriptions</h2>
+  <p>Garadi Pro subscriptions, including a free trial, are processed entirely by <strong>Apple's StoreKit and App Store systems</strong>. Garadi never sees, receives, or stores your payment or card details. Garadi reads only the purchase entitlement (active / not active) needed to unlock paid features.</p>
+
+  <h2>Data Sharing</h2>
+  <p>Garadi does not sell, rent, or share your personal health, fitness, nutrition, or weight data with advertisers or data brokers. Period.</p>
+  <p>Private iCloud sync is processed through Apple CloudKit for app functionality only.</p>
+
+  <h2>Data Retention &amp; Deletion</h2>
+  <p>Data stored locally remains on your device until you delete it or delete the app. Data synced to iCloud remains in your private iCloud database according to Apple's iCloud account behavior, and can be removed by deleting the app's data from iCloud or by using in-app deletion tools.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>Garadi is not intended for users under 13 years of age.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>This policy may be updated as Garadi adds new features. Updates will be posted here with a revised effective date.</p>
+
+  <h2>Contact</h2>
+  <p>For questions about this privacy policy, email <a href="mailto:karthikhsg@gmail.com">karthikhsg@gmail.com</a>.</p>
+
+  <footer>
+    <p>Garadi · com.karthik.garadi · by karoslabs · Effective June 29, 2026</p>
+    <p>Need help using the app? Visit the <a href="../support/">Garadi support page</a>.</p>
+  </footer>
+</div>
+</body>
+</html>
